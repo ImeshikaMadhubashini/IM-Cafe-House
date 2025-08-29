@@ -1,0 +1,102 @@
+.footr-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    // height: 100vw;
+    background-color: white;
+    flex-direction: column;
+
+    .top{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        // height: 170px;
+        background-color: rgb(48, 50, 47);
+        // padding: 30px;
+        flex-direction: column;
+
+        .contact-icon{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            // background-color: antiquewhite;
+            width: 100vw;
+            // height: 55px;
+            margin-top: 20px;
+
+            .call{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: white;
+                margin-right: 40px;
+                font-size: 25px;
+                
+            }
+            .whatsapp{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: rgb(25, 127, 34);
+                margin-right: 40px;
+                font-size: 25px;
+            }
+    
+            .email{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: rgb(216, 45, 45);
+                margin-right: 40px;
+                font-size: 30px;
+            }
+        }
+
+ 
+
+        .contact-details{
+            display: flex;
+            // align-items: center;
+            justify-content: center;
+            // background-color: rgb(168, 112, 38);
+            width: 100vw;
+            // height: 95px;
+            padding: 20px;
+
+            p{
+                color: white;
+                margin-right: 50px;
+                font-size: 20px;
+            }
+        }
+
+        h2{
+            margin-bottom: 10px;
+            color: white;
+        }
+
+        p{
+            color: white;
+            margin-bottom: 20px;
+        }
+
+    }
+
+    // .bottom{
+    //     display: flex;
+    //     align-items: center;
+    //     justify-content: center;
+    //     width: 100vw;
+    //     height: 75px;
+    //     background-color: rgb(58, 87, 2);
+    //     //  background-color: rgb(50, 47, 47);
+    //     flex-direction: column;
+    //     color: white;
+    //     padding: 20px;
+    // }
+    // h2{
+    //     margin-bottom: 10px;
+    // }
+}

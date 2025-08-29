@@ -1,0 +1,104 @@
+.introduction-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 100vw;
+    // height: 100vh;
+    // padding: 50px;
+    overflow: hidden;
+    animation: slideIn 3s ease-out forwards;
+
+    .main-card{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: rgb(255, 255, 255);
+        width: 99vw;
+        // height: 70vh;
+        // border: 0.5px solid rgba(53, 52, 52, 0.619);
+        border-radius: 25px;
+        flex-direction: column;
+        margin-top: 20px;
+
+        .top{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            width: 99vw;
+            height: 35vh;
+            // background-color: gray;
+            
+
+            h1{
+                font-size: 40px;
+                color: black;
+                margin-bottom: 100px;
+            }
+            p{
+                color: black;
+                font-size: 18px;
+            }
+        }
+
+        .bottom{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 99vw;
+            height: 35vh;
+            // background-color: pink;
+
+            .card-1{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 30vw;
+                height: 32vh;
+                border: 0.5px solid gray;
+                border-radius: 25px;
+                margin-right: 35px;
+                flex-direction: column;
+
+                h2,p{
+                    padding: 10px;
+                    color: black;
+                }
+            }
+
+            .card-2{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 30vw;
+                height: 32vh;
+                border: 0.5px solid gray;
+                border-radius: 25px;
+                margin-right: 35px;
+                flex-direction: column;
+
+                h2,p{
+                    padding: 10px;
+                    color: black;
+                }
+            }
+
+            .card-3{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 30vw;
+                height: 32vh;
+                border: 0.5px solid gray;
+                border-radius: 25px;
+                flex-direction: column;
+
+                h2,p{
+                    padding: 10px;
+                    color: black;
+                }
+            }
+        }
+    }
+}

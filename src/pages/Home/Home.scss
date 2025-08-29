@@ -1,0 +1,150 @@
+.home-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: linear-gradient(rgba(20, 20, 20, 0.616), rgba(14, 14, 14, 0.605)), url("../../Image/Home.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow: hidden;
+
+    .heder {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        color: white;
+        flex-direction: column;
+
+        h1 {
+            font-size: 77px;
+            color: white;
+            position: relative;
+            animation: slideIn 3s ease-out forwards;
+            opacity: 0;
+        }
+
+        p {
+            font-size: 45px;
+            margin-top: 20px;
+            position: relative;
+            animation: slideIn 3s ease-out 0.5s forwards; /* Delayed by 0.5s */
+            opacity: 0;
+        }
+    }
+}
+
+
+// /* Responsive Design */
+// @media (max-width: 768px) {
+//     .header h1 {
+//         font-size: 8vw;
+//     }
+//     .header p {
+//         font-size: 5vw;
+//     }
+// }
+
+// @media (max-width: 480px) {
+//     .header h1 {
+//         font-size: 10vw;
+//     }
+//     .header p {
+//         font-size: 6vw;
+//     }
+// }
+
+
+/* Keyframes for sliding effect */
+@keyframes slideIn {
+    0% {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+
+
+
+// .home-container {
+//     display: flex;
+//     align-items: center;
+//     justify-content: center;
+//     width: 100vw;
+//     height: 100vh;
+//     background-image: linear-gradient(rgba(20, 20, 20, 0.616), rgba(14, 14, 14, 0.605)), url("../../Image/Home.jpg");
+//     background-position: center;
+//     background-size: cover;
+//     background-repeat: no-repeat;
+//     overflow: hidden;
+//     text-align: center;
+//     padding: 20px;
+
+//     .header {
+//         display: flex;
+//         align-items: center;
+//         justify-content: center;
+//         width: 100%;
+//         color: white;
+//         flex-direction: column;
+
+//         h1 {
+//             font-size: 5vw; /* Responsive font size */
+//             color: white;
+//             position: relative;
+//             animation: slideIn 3s ease-out forwards;
+//             opacity: 0;
+//         }
+
+//         p {
+//             font-size: 3vw; /* Responsive font size */
+//             margin-top: 10px;
+//             position: relative;
+//             animation: slideIn 3s ease-out 0.5s forwards;
+//             opacity: 0;
+//         }
+//     }
+// }
+
+// /* Responsive Design */
+// @media (max-width: 768px) {
+//     .header h1 {
+//         font-size: 8vw;
+//     }
+//     .header p {
+//         font-size: 5vw;
+//     }
+// }
+
+// @media (max-width: 480px) {
+//     .header h1 {
+//         font-size: 10vw;
+//     }
+//     .header p {
+//         font-size: 6vw;
+//     }
+// }
+
+// /* Keyframes for sliding effect */
+// @keyframes slideIn {
+//     0% {
+//         transform: translateY(100%);
+//         opacity: 0;
+//     }
+//     50% {
+//         opacity: 0.5;
+//     }
+//     100% {
+//         transform: translateY(0);
+//         opacity: 1;
+//     }
+// }

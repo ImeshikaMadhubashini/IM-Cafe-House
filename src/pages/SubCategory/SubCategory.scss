@@ -1,0 +1,136 @@
+.subCategory-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100vw;
+    // height: 100vh;
+    background-color: white;
+
+    .banner{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100vw;
+        height: 550px;
+        // background-color: gray;
+
+        img{
+            width: 100vw;
+            height: 550px;
+        }
+    }
+
+    .title{
+        display: flex;
+        // align-items: center;
+        // justify-content: center;
+        flex-direction: column;
+        width: 100vw;
+        height: 170px;
+        padding: 30px;
+        // background-color: rgb(222, 106, 106);
+
+        p{
+            font-size: 30px;
+            font-weight: bold;
+            margin-top: 20px;
+        }
+
+        .search{
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            width: 100%;
+            // background-color: rgba(128, 128, 128, 0.505);
+            font-size: 20px;
+
+            input {
+                background-color: rgba(128, 128, 128, 0.505);
+                padding-left: 10px;
+                color: black;
+                margin: 10px;
+                width: 245px;
+                height: 35px;
+                border-radius: 8px;
+                border: none;
+            }
+
+            input::placeholder {
+                color: rgb(37, 37, 37);
+            }
+
+            input:focus {
+                outline: none;
+                box-shadow: none;
+            }
+        }
+    }
+
+    .body{
+        display: flex;
+        // align-items: center;
+        justify-content: center;
+        width: 100vw;
+        // height: 470px;
+        margin-bottom: 70px;
+        // background-color: rgb(106, 222, 118);
+
+        .card-1, 
+        .card-2,
+        .card-3,
+        .card-4 {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 275px;
+            height: 275px;
+            // background-color: rgb(162, 195, 165);
+            margin-right: 70px;
+            flex-direction: column;
+            border: 1px solid black;
+            transition: box-shadow 0.3s ease-in-out; 
+
+            &:hover {
+                box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.3);
+                transform: scale(1.05);
+                cursor: pointer;
+            }
+
+            .Americon-Image,
+            .Ice-Image,
+            .Cappuccino-Image,
+            .Macha-Image {
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                width: 275px;
+                height: 175px;
+                // background-color: rgb(241, 190, 190);
+
+                img{
+                    width: 275px;
+                    height: 175px;
+
+                }
+            }
+
+            .Americon-Name,
+            .Ice-Name,
+            .Cappuccino-Name,
+            .Macha-Name {
+                display: flex;
+                // align-items: center;
+                // justify-content: center;
+                flex-direction: column;
+                width: 250px;
+                height: 100px;
+                // background-color: antiquewhite;
+                font-size: 20px;
+                font-weight: bold;
+                margin-top: 20px;
+            }
+        }
+
+    }
+}
