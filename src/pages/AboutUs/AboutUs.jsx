@@ -4,7 +4,7 @@ import backgroundImage from '../../Image/AboutUS.jpg'
 
 export default function AboutUs() {
   return (
-    <div className="about-container">
+    <div id='about' className="about-container">
       <div className="title">
         <p>About Us</p>
         <hr style={{ width: "85vw", color: "black", marginTop: "173px" }} />

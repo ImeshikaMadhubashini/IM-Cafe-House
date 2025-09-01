@@ -33,7 +33,7 @@ export default function SubCategory() {
                         <p style={{marginTop:"10px", color:"gray"}}>Rs. 890.00</p>
                     </div>
                 </div>
-                <div className="card-2">
+                <div className="card-2">  
                     <div className="Ice-Image">
                         <img src={icedCoffe} />
                     </div>
